@@ -5,3 +5,14 @@
 
 console.log("Company project starts...");
 console.log("Login feature added");
+
+
+
+function getUserProfile() {
+    return {
+        name: "Akash",
+        role: "Developer"
+    };
+}
+
+console.log(getUserProfile());
