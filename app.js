@@ -16,3 +16,9 @@ function getUserProfile() {
 }
 
 console.log(getUserProfile());
+
+function getProfileMessage() {
+    return "User profile loaded successfully";
+}
+
+console.log(getProfileMessage());
